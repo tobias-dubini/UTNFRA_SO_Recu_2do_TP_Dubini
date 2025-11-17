@@ -539,3 +539,22 @@ ls -l
 rm -rf RTA_Examen_20251117
 cp -r ~/RTA_Examen_20251116 ./RTA_Examen_20251116
 history -a
+cp ~/.bash_history ./
+git add .
+git status
+git commit -m "Entrega completa TP Recuperatorio - Incluye 202411, RTA_Examen_20251116 y bash_history"
+git push origin main
+cd
+UTN-FRA_SO_Examenes/202411/ansible/
+cd ~/UTN-FRA_SO_Examenes/202411/ansible
+ls -R
+vim ~/UTN-FRA_SO_Examenes/202411/ansible/playbook.yml
+vim ~/UTN-FRA_SO_Examenes/202411/ansible/roles/2PRecuperatorio/tasks/main.yml
+vim ~/RTA_Examen_20251116/Punto_D.sh
+chmod +x ~/RTA_Examen_20251116/Punto_D.sh
+cd ~/UTN-FRA_SO_Examen_Examenes/202411/ansible
+sudo ansible-playbook playbook.yml
+cp -r ~/UTN-FRA_SO_Examenes/202411/ansible ~/RTA_Examen_20251116/
+tree -a ~/RTA_Examen_20251116/ansible
+cd ~/UTNFRA_SO_Recu_2do_TP_Dubini
+history -a
