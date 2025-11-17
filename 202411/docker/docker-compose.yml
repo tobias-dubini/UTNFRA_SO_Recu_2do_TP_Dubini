@@ -1,9 +1,8 @@
-version: '3'
-
 services:
     web:
-      image:  
+      image: tobiasdubini/web2-dubini:latest
+      container_name: web2-dubini
       ports:
-        - 
+        - "81:80"
       volumes:
-        - 
+        - ./web/file:/usr/share/nginx/html/file/
