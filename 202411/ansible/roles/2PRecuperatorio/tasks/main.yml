@@ -1,8 +1,26 @@
 ---
-# tasks file for 2PRecuperatorio
 
- - name: "Rol: 2PRecuperatorio"
-   debug:
-     msg: "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+- name: Crear carpeta /home/TD/ansible_test
+  file:
+    path: /home/TD/ansible_test
+    state: directory
+    mode: '0755'
+    owner: TD
+    group: TD
 
+- name: Crear archivo info.txt
+  copy:
+    dest: /home/TD/ansible_test/info.txt
+    content: "Archivo generado por Ansible para el recuperatorio\n"
+    owner: TD
+    group: TD
+    mode: '0644'
+
+- name: Registrar el contenido del archivo
+  command: cat /home/TD/ansible_test/info.txt
+  register: contenido_archivo
+
+- name: Mostrar por pantalla el contenido (debug)
+  debug:
+    var: contenido_archivo.stdout
 
