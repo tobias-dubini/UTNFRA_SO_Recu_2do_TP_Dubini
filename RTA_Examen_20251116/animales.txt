@@ -1,0 +1,5 @@
+20251116 - Animal: Pato       TO - Habitat:
+20251116 - Animal: Perro      TM - Habitat:
+20251116 - Animal: Gallina    TO - Habitat:
+20251116 - Animal: Ballena    AG - Habitat:
+20251116 - Animal: Gato       TM - Habitat:
