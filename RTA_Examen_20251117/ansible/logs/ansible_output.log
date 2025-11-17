@@ -1,0 +1,341 @@
+2025-11-17 03:10:00,004 p=10907 u=TD n=ansible | - Role 2PRecuperatorio was created successfully
+2025-11-17 03:10:07,526 p=10912 u=TD n=ansible | - Role Crea_Carpetas_TD was created successfully
+2025-11-17 03:10:13,517 p=10914 u=TD n=ansible | - Role Cambia_Propiedad_TD was created successfully
+2025-11-17 03:10:18,338 p=10916 u=TD n=ansible | - Role Sudoers_TD was created successfully
+2025-11-17 03:52:26,861 p=11665 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 03:52:27,092 p=11665 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 03:52:27,106 p=11665 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 03:52:28,608 p=11665 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:52:28,619 p=11665 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 03:52:29,032 p=11665 u=TD n=ansible | changed: [localhost] => (item=GProfesores)
+2025-11-17 03:52:29,274 p=11665 u=TD n=ansible | changed: [localhost] => (item=GAlumnos)
+2025-11-17 03:52:29,284 p=11665 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 03:52:29,770 p=11665 u=TD n=ansible | changed: [localhost]
+2025-11-17 03:52:29,782 p=11665 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 03:52:30,099 p=11665 u=TD n=ansible | changed: [localhost]
+2025-11-17 03:52:30,130 p=11665 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 03:52:30,130 p=11665 u=TD n=ansible | localhost                  : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 03:55:42,160 p=11925 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 03:55:42,323 p=11925 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 03:55:42,333 p=11925 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 03:55:43,952 p=11925 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:55:43,966 p=11925 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 03:55:44,360 p=11925 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 03:55:44,592 p=11925 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 03:55:44,611 p=11925 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 03:55:45,239 p=11925 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:55:45,248 p=11925 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 03:55:45,565 p=11925 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:55:45,599 p=11925 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 03:55:45,600 p=11925 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 03:56:25,478 p=12142 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 03:56:25,675 p=12142 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 03:56:25,692 p=12142 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 03:56:27,334 p=12142 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:56:27,346 p=12142 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 03:56:27,731 p=12142 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 03:56:27,953 p=12142 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 03:56:27,963 p=12142 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 03:56:28,433 p=12142 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:56:28,443 p=12142 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 03:56:28,747 p=12142 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:56:28,777 p=12142 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 03:56:28,777 p=12142 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 03:57:51,015 p=12362 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 03:57:51,140 p=12362 u=TD n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context. mapping values are not allowed in this context
+  in "<unicode string>", line 3, column 10
+
+The error appears to be in '/home/TD/UTN-FRA_SO_Examenes/202411/ansible/recu_playbook.yml': line 3, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Ejecucion de Tareas del Recuperatorio 2do Parcial
+    hosts: localhost
+         ^ here
+
+2025-11-17 03:59:51,851 p=12367 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 03:59:52,020 p=12367 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 03:59:52,031 p=12367 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 03:59:53,602 p=12367 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:59:53,613 p=12367 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 03:59:54,084 p=12367 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 03:59:54,350 p=12367 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 03:59:54,365 p=12367 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 03:59:54,975 p=12367 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:59:54,985 p=12367 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 03:59:55,360 p=12367 u=TD n=ansible | ok: [localhost]
+2025-11-17 03:59:55,402 p=12367 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 03:59:55,403 p=12367 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:04:12,670 p=12630 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:04:12,831 p=12630 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:04:12,842 p=12630 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:04:14,470 p=12630 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:04:14,482 p=12630 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:04:14,873 p=12630 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:04:15,095 p=12630 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:04:15,107 p=12630 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:04:15,608 p=12630 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:04:15,619 p=12630 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:04:16,004 p=12630 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:04:16,063 p=12630 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:04:16,064 p=12630 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:08:06,887 p=12853 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:08:07,053 p=12853 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:08:07,065 p=12853 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:08:08,789 p=12853 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:08:08,800 p=12853 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:08:09,181 p=12853 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:08:09,406 p=12853 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:08:09,418 p=12853 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:08:09,876 p=12853 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:08:09,885 p=12853 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:08:10,184 p=12853 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:08:10,214 p=12853 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:08:10,214 p=12853 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:10:41,504 p=13079 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:10:41,681 p=13079 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:10:41,695 p=13079 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:10:43,391 p=13079 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:10:43,403 p=13079 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:10:43,828 p=13079 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:10:44,107 p=13079 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:10:44,119 p=13079 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:10:44,595 p=13079 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:10:44,605 p=13079 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:10:44,909 p=13079 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:10:44,939 p=13079 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:10:44,939 p=13079 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:13:30,232 p=13300 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:13:30,391 p=13300 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:13:30,402 p=13300 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:13:31,914 p=13300 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:13:31,927 p=13300 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:13:32,388 p=13300 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:13:32,618 p=13300 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:13:32,629 p=13300 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:13:33,153 p=13300 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:13:33,163 p=13300 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:13:33,490 p=13300 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:13:33,525 p=13300 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:13:33,525 p=13300 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:16:36,345 p=13523 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:16:36,503 p=13523 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:16:36,513 p=13523 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:16:38,267 p=13523 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:16:38,278 p=13523 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:16:39,093 p=13523 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:16:39,415 p=13523 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:16:39,430 p=13523 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:16:40,148 p=13523 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:16:40,157 p=13523 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:16:40,554 p=13523 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:16:40,587 p=13523 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:16:40,587 p=13523 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:23:15,902 p=13753 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:23:16,060 p=13753 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:23:16,070 p=13753 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:23:17,576 p=13753 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:23:17,587 p=13753 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:23:18,000 p=13753 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:23:18,243 p=13753 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:23:18,253 p=13753 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:23:18,763 p=13753 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:23:18,773 p=13753 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:23:19,082 p=13753 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:23:19,117 p=13753 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:23:19,118 p=13753 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:32:30,621 p=14126 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:32:30,780 p=14126 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:32:30,791 p=14126 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:32:32,454 p=14126 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:32:32,466 p=14126 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:32:32,906 p=14126 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:32:33,131 p=14126 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:32:33,144 p=14126 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:32:33,688 p=14126 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:32:33,697 p=14126 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:32:33,998 p=14126 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:32:34,029 p=14126 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:32:34,029 p=14126 u=TD n=ansible | localhost                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:36:46,351 p=14351 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:36:46,543 p=14351 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context. mapping values are not allowed in this context
+  in "<unicode string>", line 3, column 9
+
+The error appears to be in '/home/TD/UTN-FRA_SO_Examenes/202411/ansible/roles/Crea_Carpetas_TD/tasks/main.yml': line 3, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Crear carpeta /UTN
+    file:
+        ^ here
+
+2025-11-17 04:40:11,665 p=14360 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:40:11,806 p=14360 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context. mapping values are not allowed in this context
+  in "<unicode string>", line 4, column 9
+
+The error appears to be in '/home/TD/UTN-FRA_SO_Examenes/202411/ansible/roles/Crea_Carpetas_TD/tasks/main.yml': line 4, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Crear carpeta /UTN
+    file:
+        ^ here
+
+2025-11-17 04:40:34,917 p=14364 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:40:35,059 p=14364 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context. mapping values are not allowed in this context
+  in "<unicode string>", line 4, column 9
+
+The error appears to be in '/home/TD/UTN-FRA_SO_Examenes/202411/ansible/roles/Crea_Carpetas_TD/tasks/main.yml': line 4, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Crear carpeta /UTN
+    file:
+        ^ here
+
+2025-11-17 04:42:53,663 p=14372 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:42:53,826 p=14372 u=root n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:42:53,837 p=14372 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:42:55,336 p=14372 u=root n=ansible | ok: [localhost]
+2025-11-17 04:42:55,347 p=14372 u=root n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:42:55,716 p=14372 u=root n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:42:55,927 p=14372 u=root n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:42:55,939 p=14372 u=root n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:42:56,382 p=14372 u=root n=ansible | ok: [localhost]
+2025-11-17 04:42:56,391 p=14372 u=root n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:42:56,674 p=14372 u=root n=ansible | ok: [localhost]
+2025-11-17 04:42:56,690 p=14372 u=root n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN] ************************************************************
+2025-11-17 04:42:57,077 p=14372 u=root n=ansible | changed: [localhost]
+2025-11-17 04:42:57,086 p=14372 u=root n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Profesor] ***************************************************
+2025-11-17 04:42:57,319 p=14372 u=root n=ansible | changed: [localhost]
+2025-11-17 04:42:57,329 p=14372 u=root n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Alumno] *****************************************************
+2025-11-17 04:42:57,564 p=14372 u=root n=ansible | changed: [localhost]
+2025-11-17 04:42:57,587 p=14372 u=root n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:42:57,587 p=14372 u=root n=ansible | localhost                  : ok=7    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:45:02,267 p=14653 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:45:02,717 p=14653 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:45:02,730 p=14653 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:45:05,382 p=14653 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:45:05,415 p=14653 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:45:05,415 p=14653 u=TD n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:45:40,985 p=14757 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:45:41,170 p=14757 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:45:41,183 p=14757 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:45:42,755 p=14757 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:45:42,766 p=14757 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:45:43,228 p=14757 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:45:43,515 p=14757 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:45:43,528 p=14757 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:45:44,064 p=14757 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:45:44,074 p=14757 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:45:44,438 p=14757 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:45:44,459 p=14757 u=TD n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN] ************************************************************
+2025-11-17 04:45:44,962 p=14757 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:45:44,973 p=14757 u=TD n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Profesor] ***************************************************
+2025-11-17 04:45:45,279 p=14757 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:45:45,291 p=14757 u=TD n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Alumno] *****************************************************
+2025-11-17 04:45:45,598 p=14757 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:45:45,628 p=14757 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:45:45,628 p=14757 u=TD n=ansible | localhost                  : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:46:29,164 p=15060 u=TD n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:46:29,366 p=15060 u=TD n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:46:29,378 p=15060 u=TD n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:46:31,089 p=15060 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:46:31,102 p=15060 u=TD n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:46:31,540 p=15060 u=TD n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:46:31,791 p=15060 u=TD n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:46:31,805 p=15060 u=TD n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:46:32,575 p=15060 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:46:32,585 p=15060 u=TD n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:46:32,931 p=15060 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:46:32,950 p=15060 u=TD n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN] ************************************************************
+2025-11-17 04:46:33,414 p=15060 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:46:33,424 p=15060 u=TD n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Profesor] ***************************************************
+2025-11-17 04:46:33,739 p=15060 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:46:33,749 p=15060 u=TD n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Alumno] *****************************************************
+2025-11-17 04:46:34,090 p=15060 u=TD n=ansible | ok: [localhost]
+2025-11-17 04:46:34,132 p=15060 u=TD n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:46:34,132 p=15060 u=TD n=ansible | localhost                  : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-17 04:49:03,183 p=15371 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2025-11-17 04:49:03,347 p=15371 u=root n=ansible | PLAY [Ejecucion de Tareas del Recuperatorio 2do Parcial] ************************************************
+2025-11-17 04:49:03,358 p=15371 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************
+2025-11-17 04:49:04,872 p=15371 u=root n=ansible | ok: [localhost]
+2025-11-17 04:49:04,883 p=15371 u=root n=ansible | TASK [2PRecuperatorio : 1. Crear grupos GProfesores y GAlumnos] *****************************************
+2025-11-17 04:49:05,343 p=15371 u=root n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-17 04:49:05,606 p=15371 u=root n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-17 04:49:05,620 p=15371 u=root n=ansible | TASK [2PRecuperatorio : 2. Crear usuario Profesor y asignarlo a GProfesores] ****************************
+2025-11-17 04:49:06,126 p=15371 u=root n=ansible | ok: [localhost]
+2025-11-17 04:49:06,137 p=15371 u=root n=ansible | TASK [2PRecuperatorio : 3. Crear usuario alumno y asignarlo a GAlumnos] *********************************
+2025-11-17 04:49:06,480 p=15371 u=root n=ansible | ok: [localhost]
+2025-11-17 04:49:06,499 p=15371 u=root n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN] ************************************************************
+2025-11-17 04:49:06,904 p=15371 u=root n=ansible | ok: [localhost]
+2025-11-17 04:49:06,914 p=15371 u=root n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Profesor] ***************************************************
+2025-11-17 04:49:07,168 p=15371 u=root n=ansible | ok: [localhost]
+2025-11-17 04:49:07,179 p=15371 u=root n=ansible | TASK [Crea_Carpetas_TD : Crear carpeta /UTN/Alumno] *****************************************************
+2025-11-17 04:49:07,433 p=15371 u=root n=ansible | ok: [localhost]
+2025-11-17 04:49:07,472 p=15371 u=root n=ansible | TASK [Sudoers_TD : Dar privilegios sudo al grupo GProfesores] *******************************************
+2025-11-17 04:49:08,175 p=15371 u=root n=ansible | changed: [localhost]
+2025-11-17 04:49:08,188 p=15371 u=root n=ansible | TASK [Sudoers_TD : Dar privilegios sudo al grupo GAlumnos] **********************************************
+2025-11-17 04:49:08,670 p=15371 u=root n=ansible | changed: [localhost]
+2025-11-17 04:49:08,684 p=15371 u=root n=ansible | PLAY RECAP **********************************************************************************************
+2025-11-17 04:49:08,685 p=15371 u=root n=ansible | localhost                  : ok=9    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

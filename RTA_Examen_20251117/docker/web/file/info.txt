@@ -1,0 +1,4 @@
+Nombre de tu usuario: TD
+ID de tu usuario: 1002
+Hash pass de tu usuario: $y$j9T$QeOrzWwOtY2VDddVnfsYC/$TiiK4js6v1C.uD8SJ7XY72c6ujpqrgD9iZ8GD9.5GW3
+
